@@ -9,8 +9,7 @@ async function addHeader() {
     let file = await response.text();
     let item = parser.parseFromString(file, "text/html");
 
-    let bodyDiv = item.getElementsByClassName("main")[0];
-    bodyDiv.innerHTML = document.body.innerHTML;
-    document.body.innerHTML = ""
-    document.body.appendChild(item);
+    let mainDiv = item.getElementsByClassName("main")[0];
+    mainDiv.innerHTML = document.body.innerHTML;
+    document.body.innerHTML = item.innerHTML;
 }
