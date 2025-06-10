@@ -15,10 +15,10 @@ async function addHeader() {
     contentDiv.appendChild(leftSidebar);
 
     let bodyDiv = document.createElement("div");
-    
-    bodyDiv.appendChild(document.body.innerHTML);
+    bodyDiv.innerHTML = document.body.innerHTML;
     contentDiv.appendChild(bodyDiv);
 
+    document.body.innerHTML = ""
     document.body.appendChild(contentDiv);
 
     let itemInternal = item.getElementsByClassName("internal")[0];
