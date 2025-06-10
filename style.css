@@ -2,3 +2,17 @@
     display: flex;
   flex-wrap: nowrap;
 }
+
+.left {
+    width: calc(100vw - 100vh);
+}
+
+@media print, screen and (max-width: 100vh) {
+  .middle {
+    display: none;
+  }
+}
+
+.middle {
+    width: calc(100vh);
+}
