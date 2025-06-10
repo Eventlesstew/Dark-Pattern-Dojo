@@ -11,5 +11,6 @@ async function addHeader() {
 
     let mainDiv = item.getElementsByClassName("main")[0];
     mainDiv.innerHTML = document.body.innerHTML;
-    document.body.innerHTML = item.innerHTML;
+    document.body.innerHTML = "";
+    document.body.appendChild(item.getElementsByClassName("body")[0]);
 }
