@@ -4,7 +4,8 @@
 }
 
 .left {
-    width: 33vw;
+    width: 16vw;
+    background-color:gray;
 }
 
 @media print, screen and (max-width: 66vh) {
