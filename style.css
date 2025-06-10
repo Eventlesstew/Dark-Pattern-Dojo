@@ -4,10 +4,10 @@
 }
 
 .left {
-    width: calc((1/3)vw);
+    width: 33vw;
 }
 
-@media print, screen and (max-width: 135vh) {
+@media print, screen and (max-width: 66vh) {
   .left {
     display: none;
   }
