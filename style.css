@@ -8,7 +8,7 @@
 }
 
 @media print, screen and (max-width: 100vh) {
-  .middle {
+  .left {
     display: none;
   }
 }
