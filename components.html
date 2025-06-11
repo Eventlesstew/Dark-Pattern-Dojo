@@ -8,21 +8,10 @@
     </div>
 
     <div class="main">
+        <script type="text/javascript" src="/Dark-Pattern-Dojo/dropdown.js"></script>
         <div class="left">
-            <script>
-                function dropdown(id) {
-                    let dropdownElement = document.body.getElementsByClassName("dropdown")[id]
-                    let dropdownContent = dropdownElement.getElementsByClassName("dropdown-content")
-
-                    if (dropdownContent.style.display == "none") {
-                        dropdownContent.style.display = "block";
-                    } else {
-                        dropdownContent.style.display = "none";
-                    }
-                }
-            </script>
             <div class="dropdown">
-                <button onclick="dropdown(0)" class="dropdown-button">THE DOJO</button>
+                <button onclick=dropdown(0) class="dropdown-button">THE DOJO</button>
                 <ul class="dropdown-content">
                     <li><a href="/Dark-Pattern-Dojo/">Homepage</a></li>
                 </ul>
