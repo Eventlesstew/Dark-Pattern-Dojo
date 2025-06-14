@@ -2,16 +2,16 @@ document.addEventListener('DOMContentLoaded', ()=>{ /*How to trigger code.*/
     addHeader();
 })
 
-function dropdown(element) {
-    console.log(element.style.display);
-    if (element.style.display == "none") {
-        element.style.display = "block";
-    } else {
-        element.style.display = "none";
-    }
-}
-
 async function addHeader() {
+    function dropdown(element) {
+        console.log(element.style.display);
+        if (element.style.display == "none") {
+            element.style.display = "block";
+        } else {
+            element.style.display = "none";
+        }
+    }
+
     let parser = new DOMParser();
 
     const response = await fetch("/Dark-Pattern-Dojo/components.html");
