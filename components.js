@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', ()=>{ /*How to trigger code.*/
 })
 
 function dropdown(id) {
-    const leftDiv = document.body.getElementById("compLeft")
+    const leftDiv = document.body.innerHTML.getElementById("compLeft");
     const dropdownElement = leftDiv.getElementsByClassName("dropdown")[id];
     let dropdownContent = dropdownElement.getElementsByClassName("dropdown-content")[0];
 
