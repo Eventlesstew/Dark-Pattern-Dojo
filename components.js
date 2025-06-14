@@ -29,5 +29,5 @@ async function addHeader() {
     const mainDiv = item.getElementById("compMiddle");
     mainDiv.innerHTML = document.body.innerHTML;
     document.body.innerHTML = "";
-    document.body.appendChild(item.getElementsByClassName("body")[0]);
+    document.body.appendChild(item.getElementById("compBody"));
 }
