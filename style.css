@@ -16,7 +16,8 @@
   }
 }
 
-#compMiddle {
-    max-width: calc(100vh);
-    background-color:whitesmoke;
+@media print, screen and (min-width: 66vh) {
+  #compHideLeft {
+    display: none;
+  }
 }
