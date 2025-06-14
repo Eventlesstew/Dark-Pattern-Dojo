@@ -2,8 +2,6 @@ document.addEventListener('DOMContentLoaded', ()=>{ /*How to trigger code.*/
     addHeader();
 })
 
-document.addEventListener("click")
-
 function dropdown(element) {
     console.log(element.style.display);
     if (element.style.display == "none") {
