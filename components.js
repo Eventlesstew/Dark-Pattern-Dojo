@@ -19,13 +19,11 @@ async function addHeader() {
     let item = parser.parseFromString(file, "text/html");
 
     const leftDiv = item.getElementById("compLeft");
-    let dropdownButtons = leftDiv.getElementsByClassName("dropdown-button");
-    for (i = 0; i < dropdownButtons.length; i++) {
-        dropdownButtons[i].addEventListener("click", function() {
-            const dropdownElement = leftDiv.getElementsByClassName("dropdown")[i];
-            const dropdownContent = dropdownElement.getElementsByClassName("dropdown-content")[0];
-            dropdown(dropdownContent);
-        });
+    let dropdown = leftDiv.getElementsByClassName("dropdown");
+    for (i = 0; i < dropdown.length; i++) {
+        const dropdownButton = dropdown[i].getElementsByClassName("dropdown-button")[0];
+        const dropdownContent = dropdown[i].getElementsByClassName("dropdown-content")[0];
+        dropdownButton.addEventListener("click", function() {dropdown(dropdownContent);});
     }
 
     const mainDiv = item.getElementById("compMiddle");
