@@ -20,13 +20,13 @@ async function addHeader() {
     let file = await response.text();
     let item = parser.parseFromString(file, "text/html");
 
-    const leftDiv = item.getElementById("compLeft")
+    const leftDiv = item.getElementById("compLeft");
     let dropdownButtons = leftDiv.getElementsByClassName("dropdown-button");
     for (i = 0; i < dropdownButtons.length; i++) {
         dropdownButtons[i].addEventListener("click", function() {
-            const dropdownElement = leftDiv.getElementsByClassName("dropdown")[id];
+            const dropdownElement = leftDiv.getElementsByClassName("dropdown")[i];
             const dropdownContent = dropdownElement.getElementsByClassName("dropdown-content")[0];
-            dropdown(dropdownContent)
+            dropdown(dropdownContent);
         });
     }
 
