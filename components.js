@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', ()=>{ /*How to trigger code.*/
 
 async function addHeader() {
     function dropdownToggle(element) {
-        console.log(element.style.display);
         if (element.style.display == "none") {
             element.style.display = "block";
         } else {

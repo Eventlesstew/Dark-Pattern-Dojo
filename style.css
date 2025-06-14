@@ -4,7 +4,7 @@
 }
 
 #compLeft {
-    width: 16vw;
+    width: 200px;
     background-color:gray;
 }
 
@@ -15,5 +15,6 @@
 }
 
 #compMiddle {
-    min-width: calc(100vh);
+    max-width: calc(100vh);
+    background-color:whitesmoke;
 }
