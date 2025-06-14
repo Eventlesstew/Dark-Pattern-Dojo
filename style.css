@@ -4,7 +4,7 @@
 }
 
 #compLeft {
-    width: 200px;
+    min-width: 200px;
     height: 100vh;
     position: sticky;
     background-color:gray;
