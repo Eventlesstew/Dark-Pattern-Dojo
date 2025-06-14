@@ -2,8 +2,7 @@ document.addEventListener('DOMContentLoaded', ()=>{ /*How to trigger code.*/
     addHeader();
 })
 
-function dropdown(id) {
-    const leftDiv = document.body.innerHTML.getElementById("compLeft");
+function dropdown(leftDiv, id) {
     const dropdownElement = leftDiv.getElementsByClassName("dropdown")[id];
     let dropdownContent = dropdownElement.getElementsByClassName("dropdown-content")[0];
 
@@ -24,7 +23,7 @@ async function addHeader() {
     const leftDiv = item.getElementById("compLeft")
     let dropdownButtons = leftDiv.getElementsByClassName("dropdown-button");
     for (i = 0; i < dropdownButtons.length; i++) {
-        dropdownButtons[i].addEventListener("click", dropdown(i));
+        dropdownButtons[i].addEventListener("click", dropdown(leftDiv, i));
     }
 
     const mainDiv = item.getElementById("compMiddle");
