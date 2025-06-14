@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', ()=>{ /*How to trigger code.*/
 })
 
 async function addHeader() {
-    function dropdown(element) {
+    function dropdownToggle(element) {
         console.log(element.style.display);
         if (element.style.display == "none") {
             element.style.display = "block";
@@ -23,7 +23,7 @@ async function addHeader() {
     for (i = 0; i < dropdown.length; i++) {
         const dropdownButton = dropdown[i].getElementsByClassName("dropdown-button")[0];
         const dropdownContent = dropdown[i].getElementsByClassName("dropdown-content")[0];
-        dropdownButton.addEventListener("click", function() {dropdown(dropdownContent);});
+        dropdownButton.addEventListener("click", function() {dropdownToggle(dropdownContent);});
     }
 
     const mainDiv = item.getElementById("compMiddle");
