@@ -5,7 +5,9 @@ document.addEventListener('DOMContentLoaded', ()=>{ /*How to trigger code.*/
 function dropdown(leftDiv, id) {
     const dropdownElement = leftDiv.getElementsByClassName("dropdown")[id];
     let dropdownContent = dropdownElement.getElementsByClassName("dropdown-content")[0];
-
+    
+    console.log(id);
+    console.log(dropdownContent.style.display);
     if (dropdownContent.style.display == "none") {
         dropdownContent.style.display = "block";
     } else {

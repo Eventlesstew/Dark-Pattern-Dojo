@@ -1,19 +1,19 @@
-.main {
+#compMain {
     display: flex;
   flex-wrap: nowrap;
 }
 
-.left {
+#compLeft {
     width: 16vw;
     background-color:gray;
 }
 
 @media print, screen and (max-width: 66vh) {
-  .left {
+  #compLeft {
     display: none;
   }
 }
 
-.middle {
+#compMiddle {
     min-width: calc(100vh);
 }
