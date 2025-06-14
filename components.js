@@ -2,16 +2,14 @@ document.addEventListener('DOMContentLoaded', ()=>{ /*How to trigger code.*/
     addHeader();
 })
 
-function dropdown(leftDiv, id) {
-    const dropdownElement = leftDiv.getElementsByClassName("dropdown")[id];
-    let dropdownContent = dropdownElement.getElementsByClassName("dropdown-content")[0];
-    
-    console.log(id);
-    console.log(dropdownContent.style.display);
-    if (dropdownContent.style.display == "none") {
-        dropdownContent.style.display = "block";
+document.addEventListener("click")
+
+function dropdown(element) {
+    console.log(element.style.display);
+    if (element.style.display == "none") {
+        element.style.display = "block";
     } else {
-        dropdownContent.style.display = "none";
+        element.style.display = "none";
     }
 }
 
@@ -25,7 +23,11 @@ async function addHeader() {
     const leftDiv = item.getElementById("compLeft")
     let dropdownButtons = leftDiv.getElementsByClassName("dropdown-button");
     for (i = 0; i < dropdownButtons.length; i++) {
-        dropdownButtons[i].addEventListener("click", dropdown(leftDiv, i));
+        dropdownButtons[i].addEventListener("click", function() {
+            const dropdownElement = leftDiv.getElementsByClassName("dropdown")[id];
+            const dropdownContent = dropdownElement.getElementsByClassName("dropdown-content")[0];
+            dropdown(dropdownContent)
+        });
     }
 
     const mainDiv = item.getElementById("compMiddle");
