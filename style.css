@@ -1,3 +1,16 @@
+@font-face {
+  font-family:"Hardipe";
+  src: url("/fonts/Hardipe DEMO.otf");
+}
+
+h1 {
+  font-family: "Hardipe";
+}
+
+p {
+  font-family: Helvetica;
+}
+
 #compMain {
   display: flex;
   flex-wrap: nowrap;

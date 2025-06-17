@@ -2,10 +2,13 @@
   position: sticky;
   top: 0;
   display: flex;
+  height: 34px;
 }
 
 #adblocker h2 {
   width: 120px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* CODE BELOW COPYPASTED FROM W3SCHOOLS */
@@ -14,7 +17,6 @@
   position: relative;
   display: inline-block;
   width: 60px;
-  height: 34px;
 }
 
 /* Hide default HTML checkbox */
