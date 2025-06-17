@@ -1,5 +1,11 @@
 #adblocker {
   position: sticky;
+  top: 0;
+  display: flex;
+}
+
+#adblocker h2 {
+  width: 120px;
 }
 
 /* CODE BELOW COPYPASTED FROM W3SCHOOLS */

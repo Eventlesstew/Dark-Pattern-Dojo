@@ -22,6 +22,7 @@ async function addHeader() {
     for (i = 0; i < dropdown.length; i++) {
         const dropdownButton = dropdown[i].getElementsByClassName("dropdown-button")[0];
         const dropdownContent = dropdown[i].getElementsByClassName("dropdown-content")[0];
+        dropdownToggle(dropdownContent); /* This ensures the dropdown is hidden when first loading the page.*/
         dropdownButton.addEventListener("click", function() {dropdownToggle(dropdownContent);});
     }
 
