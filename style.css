@@ -17,20 +17,26 @@ h1 {
 }
 
 #compLeft {
-  min-width: calc((1/6)vw);
+  flex-grow: 1;
+  min-width: calc((1.0/6.0)vw);
   height: 100vh;
   position: sticky;
   top: 0;
 }
 
-#compLeft div {
+#compLeft .sidebar {
   max-width: 200px;
   height: 100vh;
   background-color:gray;
 }
 
+#compMiddle {
+    flex-grow: 4;
+  }
+
 #compRight {
-  min-width: calc((1/6)vw)
+  flex-grow: 1;
+  min-width: calc((1.0/6.0)vw);
 }
 
 @media print, screen and (max-width: 100vh) {
@@ -42,9 +48,5 @@ h1 {
 @media print, screen and (min-width: 100vh) {
   #compHideSide {
     display: none;
-  }
-
-  #compMiddle {
-    min-width: calc((2/3)vw);
   }
 }
