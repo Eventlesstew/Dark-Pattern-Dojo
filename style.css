@@ -18,24 +18,21 @@ h1 {
 }
 
 #compLeft {
-  min-width: 33vw;
+  min-width: 200px;
+  margin-right: 10px;
   height: 100vh;
   position: sticky;
   top: 0;
 }
 
 #compLeft .sidebar {
-  max-width: 200px;
   height: 100vh;
   background-color:gray;
 }
 
-#compMiddle {
-    min-width: 33vw;
-  }
-
 #compRight {
-  min-width: 33vw;
+  min-width: 200px;
+  margin-left: 10px;
 }
 
 @media print, screen and (max-width: 100vh) {
