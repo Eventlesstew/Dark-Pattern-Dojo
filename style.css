@@ -17,21 +17,37 @@ h1 {
 }
 
 #compLeft {
-  min-width: 200px;
+  width: calc((1/6)vw);
   height: 100vh;
   position: sticky;
   top: 0;
+}
+
+#compLeft div {
+  max-width: 200px;
   background-color:gray;
+}
+
+#compRight {
+  width: calc((1/6)vw)
 }
 
 @media print, screen and (max-width: 66vh) {
   #compLeft {
     display: none;
   }
+
+  #compMiddle {
+    width: 100vw;
+  }
 }
 
 @media print, screen and (min-width: 66vh) {
-  #compHideLeft {
+  #compHideSide {
     display: none;
+  }
+
+  #compMiddle {
+    width: calc((2/3)vw);
   }
 }
