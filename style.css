@@ -13,11 +13,12 @@ h1 {
 
 #compMain {
   display: flex;
+  justify-content: space-between;
   flex-wrap: nowrap;
 }
 
 #compLeft {
-  flex-grow: 1;
+  min-width: 33vw;
   height: 100vh;
   position: sticky;
   top: 0;
@@ -30,11 +31,11 @@ h1 {
 }
 
 #compMiddle {
-    flex-grow: 4;
+    min-width: 33vw;
   }
 
 #compRight {
-  flex-grow: 1;
+  min-width: 33vw;
 }
 
 @media print, screen and (max-width: 100vh) {
