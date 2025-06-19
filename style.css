@@ -18,7 +18,6 @@ h1 {
 
 #compLeft {
   flex-grow: 1;
-  min-width: calc((1.0/6.0)vw);
   height: 100vh;
   position: sticky;
   top: 0;
@@ -36,7 +35,6 @@ h1 {
 
 #compRight {
   flex-grow: 1;
-  min-width: calc((1.0/6.0)vw);
 }
 
 @media print, screen and (max-width: 100vh) {
