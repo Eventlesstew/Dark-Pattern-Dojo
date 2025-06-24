@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', ()=>{ /*How to trigger code.*/
-    addHeader();
+    addTable();
 })
 
-async function addHeader() {
+async function addTable() {
 
     let parser = new DOMParser();
 
