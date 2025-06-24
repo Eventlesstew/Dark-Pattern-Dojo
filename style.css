@@ -13,12 +13,12 @@ body {
 
 * {
   font-family: Helvetica;
-  text-decoration-color: rgb(173, 173, 173);
+  color: rgb(173, 173, 173);
 }
 
 #compHeader {
   background-color:rgb(192, 0, 0);
-  text-decoration-color: black;
+  color: black;
 }
 
 #compMain {
@@ -38,7 +38,7 @@ body {
 #compLeft .sidebar {
   height: 100vh;
   background-color:rgb(62, 38, 38);
-  text-decoration-color: white;
+  color: white;
 }
 
 #compMiddle {
