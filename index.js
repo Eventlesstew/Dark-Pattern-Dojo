@@ -14,7 +14,7 @@ async function addHeader() {
     const categories = ["Temporal", "Psychological", "Monetary"]
 
     for (i = 0; i < categories.length; i++) {
-        let tableSector = document.body.getElementById("homeTable" + categories[i]);
+        let tableSector = document.getElementById("homeTable" + categories[i]);
         let sidebarSector = leftDiv.getElementById("sidebar" + categories[i]).getElementsByClassName("dropdown-content")[0];
         tableSector.appendChild(sidebarSector);
     }
