@@ -3,12 +3,22 @@
   src: url("/Dark-Pattern-Dojo/fonts/Hardipe DEMO.otf");
 }
 
-h1 {
+h1, h1 a {
   font-family: "Hardipe";
+}
+
+body {
+  background-color:rgb(60, 60, 60);
 }
 
 * {
   font-family: Helvetica;
+  text-decoration-color: rgb(173, 173, 173);
+}
+
+#compHeader {
+  background-color:rgb(192, 0, 0);
+  text-decoration-color: black;
 }
 
 #compMain {
@@ -27,7 +37,8 @@ h1 {
 
 #compLeft .sidebar {
   height: 100vh;
-  background-color:gray;
+  background-color:rgb(62, 38, 38);
+  text-decoration-color: white;
 }
 
 #compMiddle {
