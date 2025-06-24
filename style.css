@@ -30,6 +30,10 @@ h1 {
   background-color:gray;
 }
 
+#compMiddle {
+  width: 100vw;
+}
+
 #compRight {
   min-width: 200px;
   margin-left: 10px;
