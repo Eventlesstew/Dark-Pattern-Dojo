@@ -48,14 +48,16 @@ body {
   text-align: center;
 }
 
-.dropdown-button {
+#compLeft .sidebar .dropdown-button {
   background-color: rgba(0, 0, 0, 0);
-  border-color: white;
-  border-width: 2px;
+  border: 2px white;
 }
 
-.dropdown-content {
-  border: 5px solid white;
+#compLeft .sidebar .dropdown-content {
+  width: calc(100% - 50px);
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 2px solid rgb(200, 200, 200);
   border-bottom: none;
   border-top: none;
 }
