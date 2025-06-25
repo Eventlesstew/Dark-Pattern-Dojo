@@ -45,9 +45,14 @@ body {
 }
 
 #compLeft .sidebar {
+  align-content: stretch;
   height: 100vh;
   background-color:rgb(62, 38, 38);
   color: rgb(194, 194, 194);
+}
+
+#compLeft .sidebar a {
+  text-align: center;
 }
 
 #compMiddle {
