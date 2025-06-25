@@ -24,12 +24,6 @@ body {
   color: black;
 }
 
-.dropdown-button {
-  background-color: rgba(0, 0, 0, 0);
-  border-color: white;
-  border-width: 2px;
-}
-
 #compMain {
   display: flex;
   justify-content: space-between;
@@ -50,12 +44,25 @@ body {
   color: rgb(194, 194, 194);
 }
 
-#compLeft * {
-  width: 100%;
-}
-
 #compLeft .sidebar h2 {
   text-align: center;
+}
+
+.dropdown-button {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: white;
+  border-width: 2px;
+}
+
+.dropdown-content {
+  border-color: white;
+  border-width: 2px;
+  border-top: hidden;
+  border-bottom: hidden;
+}
+
+#compLeft * {
+  width: 100%;
 }
 
 #compMiddle {
