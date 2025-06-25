@@ -55,8 +55,8 @@ body {
 }
 
 .dropdown-content {
-  border-color: white;
-  border-width: 2px;
+  border: white;
+  border-width: 5px;
   border-bottom-color: rgba(0, 0, 0, 0);
   border-top-color: rgba(0, 0, 0, 0);
 }
