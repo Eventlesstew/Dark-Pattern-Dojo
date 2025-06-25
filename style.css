@@ -18,7 +18,16 @@ body {
 
 #compHeader {
   background-color:rgb(192, 0, 0);
+}
+
+#compHeader h1 a {
   color: black;
+}
+
+.dropdown-button {
+  background-color: rgba(0, 0, 0, 0);
+  border-color: white;
+  border-width: 2px;
 }
 
 #compMain {
