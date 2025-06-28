@@ -8,6 +8,12 @@ h1, h1 a {
 }
 
 body {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+}
+
+body {
   background-color:rgb(60, 60, 60);
 }
 
@@ -22,6 +28,8 @@ body {
 
 #compHeader h1 a {
   color: black;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 #compMain {

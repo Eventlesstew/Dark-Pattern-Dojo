@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', ()=>{ /*How to trigger code.*/
     const input = document.body.getElementsByClassName("adblocker-toggle")[0];
     input.addEventListener("click", adToggle);
-    setInterval(adFunction, 1000);
+    /* setInterval(adFunction, 1000);*/
 });
 
 function adFunction() {
