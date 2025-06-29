@@ -11,6 +11,11 @@
   margin-bottom: 0;
 }
 
+.ad img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
 /* CODE BELOW COPYPASTED FROM W3SCHOOLS */
 /* The switch - the box around the slider */
 .switch {
