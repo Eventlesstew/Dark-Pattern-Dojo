@@ -14,7 +14,7 @@ body {
 }
 
 body {
-  background-color:rgb(60, 60, 60);
+  background-color:rgb(62, 38, 38);
 }
 
 * {
@@ -24,12 +24,14 @@ body {
 
 #compHeader {
   background-color:rgb(192, 0, 0);
+  padding: 10px, 10px, 10px, 10px;
 }
 
 #compHeader h1 {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 #compHeader h1 a {
   color: black;
 }
@@ -40,20 +42,21 @@ body {
   flex-wrap: nowrap;
 }
 
-#compLeft {
+#compLeft, #compRight {
   min-width: 200px;
   height: 100vh;
   position: sticky;
   top: 0;
 }
 
+#compLeft * {
+  width: 100%;
+}
+
 #compLeft .sidebar {
   width: fit-content;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 20px;
+  padding: 20px, 10px, 0px, 10px;
   height: 100vh;
-  background-color:rgb(62, 38, 38);
   color: rgb(194, 194, 194);
 }
 
@@ -69,28 +72,28 @@ body {
 }
 
 #compLeft .sidebar .dropdown-content {
-  padding-left: 30px;
-  width: calc(100% - padding-left);
+  padding-left: 0px;
   margin-top: 0;
   margin-bottom: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
   border: 2px solid rgb(200, 200, 200);
-  border-bottom: none;
   border-top: none;
+  border-bottom: none;
 }
 
-#compLeft * {
-  width: 100%;
+#compLeft .sidebar .dropdown-content li {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 #compMiddle {
   width: 100%;
+  background-color:rgb(60, 60, 60);
+  padding-left: 10px;
+  padding-right: 10px;
   margin-left: 10px;
   margin-right: 10px;
-}
-
-#compRight {
-  min-width: 200px;
-  margin-left: 10px;
 }
 
 @media print, screen and (max-width: 100vh) {
