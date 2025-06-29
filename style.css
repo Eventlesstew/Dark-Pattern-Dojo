@@ -3,37 +3,37 @@
   src: url("/Dark-Pattern-Dojo/fonts/Hardipe DEMO.otf");
 }
 
-h1, h1 a {
-  font-family: "Hardipe";
-}
-
 body {
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 0px;
-}
-
-body {
   background-color:rgb(62, 38, 38);
 }
 
 * {
   font-family: Helvetica;
   color: rgb(255, 255, 255);
+  font-size: 12pt;
+}
+
+h1, h1 * {
+  font-family: "Hardipe";
+  font-size: 20pt;
 }
 
 #compHeader {
   background-color:rgb(192, 0, 0);
-  padding: 10px, 10px, 10px, 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
 }
 
-#compHeader h1 {
+#compHeader h1, #compHeader h1 * {
   margin-top: 0;
   margin-bottom: 0;
-}
-
-#compHeader h1 a {
   color: black;
+  font-size: 24pt;
 }
 
 #compMain {
@@ -55,7 +55,8 @@ body {
 
 #compLeft .sidebar {
   width: fit-content;
-  padding: 20px, 10px, 0px, 10px;
+  padding-top: 20px;
+  padding-left: 10px;
   height: 100vh;
   color: rgb(194, 194, 194);
 }
@@ -66,25 +67,37 @@ body {
 }
 
 #compLeft .sidebar .dropdown-button {
+  font-size: 14pt;
   background-color: rgba(0, 0, 0, 0);
   border-width: 2px;
   border-color: white;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
 #compLeft .sidebar .dropdown-content {
-  padding-left: 0px;
-  margin-top: 0;
-  margin-bottom: 0;
+  width: calc(100% - 4px);
+
+  border-color: rgb(255, 255, 255);
+
+  border-left-width: 2px;
+  border-left-style: inset;
+
+  border-right-width: 2px;
+  border-right-style: outset;
+
   padding-top: 5px;
   padding-bottom: 5px;
-  border: 2px solid rgb(200, 200, 200);
-  border-top: none;
-  border-bottom: none;
+  padding-left: 0px;
+
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 #compLeft .sidebar .dropdown-content li {
   padding-top: 5px;
   padding-bottom: 5px;
+  text-align: center;
 }
 
 #compMiddle {
