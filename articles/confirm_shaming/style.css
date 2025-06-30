@@ -1,0 +1,24 @@
+#confirmShamingPopup {
+    background-color: white;
+    border: 2px, solid, black;
+    width: 80%;
+}
+
+#confirmShamingPopup * {
+    color: black;
+    font-family: Helvetica;
+}
+
+#confirmShamingPopup h1 {
+    font-size: 18pt;
+}
+
+#confirmShamingPopup .confirm * {
+    font-size: 15pt;
+    color:palevioletred;
+}
+
+#confirmShamingPopup .cancel * {
+    font-size: 12pt;
+    color:gray
+}

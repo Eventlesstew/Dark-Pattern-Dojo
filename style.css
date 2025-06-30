@@ -125,3 +125,8 @@ h1, h1 * {
   border: 2px, white, solid;
   border-collapse: collapse;
 }
+
+#homeTable td, #homeTable th {
+  text-align: center;
+  width: 200px;
+}
