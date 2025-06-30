@@ -7,6 +7,7 @@
 #confirmShamingPopup * {
     color: black;
     font-family: Helvetica;
+    text-align:center;
 }
 
 #confirmShamingPopup h1 {
