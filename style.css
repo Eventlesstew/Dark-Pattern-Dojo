@@ -121,7 +121,7 @@ h1, h1 * {
   }
 }
 
-#homeTable, #homeTable tr, #homeTable th {
+#homeTable, #homeTable td, #homeTable th {
   border: 2px, white, solid;
   border-collapse: collapse;
 }
