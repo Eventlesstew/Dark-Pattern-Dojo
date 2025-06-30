@@ -11,7 +11,7 @@
 }
 
 #confirmShamingPopup h1 {
-    font-size: 18pt;
+    font-size: 25pt;
 }
 
 #confirmShamingPopup img {
@@ -19,11 +19,11 @@
 }
 
 #confirmShamingPopup .confirm * {
-    font-size: 15pt;
+    font-size: 23pt;
     color:palevioletred;
 }
 
 #confirmShamingPopup .cancel * {
-    font-size: 12pt;
+    font-size: 15pt;
     color:gray
 }
