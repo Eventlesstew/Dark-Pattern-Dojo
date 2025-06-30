@@ -9,7 +9,7 @@ async function addTable() {
     const response = await fetch("/Dark-Pattern-Dojo/components.html");
     let file = await response.text();
     let item = parser.parseFromString(file, "text/html");
-    const categories = ["Temporal", "Psychological", "Monetary"]
+    const categories = ["Homepage", "Temporal", "Psychological", "Monetary"]
 
     for (i = 0; i < categories.length; i++) {
         let tableSector = document.getElementById("homeTable" + categories[i]);

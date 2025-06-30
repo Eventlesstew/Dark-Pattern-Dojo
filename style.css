@@ -120,3 +120,8 @@ h1, h1 * {
     display: none;
   }
 }
+
+#homeTable, #homeTable tr, #homeTable th {
+  border: 2px, white, solid;
+  border-collapse: collapse;
+}
