@@ -13,6 +13,10 @@
     font-size: 18pt;
 }
 
+#confirmShamingPopup img {
+    height: 200px;
+}
+
 #confirmShamingPopup .confirm * {
     font-size: 15pt;
     color:palevioletred;
