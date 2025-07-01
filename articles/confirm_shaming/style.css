@@ -3,6 +3,8 @@
     border: 2px, solid, black;
     justify-self: center;
     width: 60%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 #confirmShamingPopup * {
@@ -12,20 +14,23 @@
 }
 
 #confirmShamingPopup h1 {
-    font-size: 25pt;
+    font-size: 30pt;
 }
 
-#confirmShamingPopup img {
-    height: 200px;
+.confirmShamingImg {
     justify-self: center;
 }
 
+.confirmShamingImg img {
+    height: 200px;
+}
+
 #confirmShamingPopup .confirm * {
-    font-size: 23pt;
+    font-size: 25pt;
     color:palevioletred;
 }
 
 #confirmShamingPopup .cancel * {
-    font-size: 15pt;
+    font-size: 10pt;
     color:gray
 }
