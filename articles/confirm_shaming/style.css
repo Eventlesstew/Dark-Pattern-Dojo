@@ -33,10 +33,10 @@
 
 #confirmShamingPopup .confirm * {
     font-size: 25pt;
-    color:rgb(255, 150, 185);
+    color:rgb(146, 64, 91);
 }
 
 #confirmShamingPopup .cancel * {
     font-size: 10pt;
-    color:rgb(43, 71, 98);
+    color:rgb(75, 125, 173);
 }
