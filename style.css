@@ -124,6 +124,8 @@ h1, h1 * {
 #homeTable, #homeTable td, #homeTable th {
   border: 2px, white, solid;
   border-collapse: collapse;
+  justify-self: center;
+  width:80%;
 }
 
 #homeTable td, #homeTable th {

@@ -1,5 +1,10 @@
+@font-face {
+  font-family:"Determination";
+  src: url("/Dark-Pattern-Dojo/fonts/DTM-Mono.otf");
+}
+
 #confirmShamingPopup {
-    background-color: white;
+    background-color: rgb(114, 185, 255);
     border: 2px, solid, black;
     justify-self: center;
     width: 60%;
@@ -8,12 +13,12 @@
 }
 
 #confirmShamingPopup * {
-    color: black;
-    font-family: Helvetica;
+    font-family: "Determination";
     text-align:center;
 }
 
 #confirmShamingPopup h1 {
+    color: yellow;
     font-size: 30pt;
 }
 
