@@ -19,6 +19,7 @@
 
 #confirmShamingPopup h1 {
     color: yellow;
+    font-weight: normal;
     font-size: 30pt;
 }
 
@@ -32,10 +33,10 @@
 
 #confirmShamingPopup .confirm * {
     font-size: 25pt;
-    color:palevioletred;
+    color:rgb(255, 150, 185);
 }
 
 #confirmShamingPopup .cancel * {
     font-size: 10pt;
-    color:gray
+    color:rgb(43, 71, 98);
 }
