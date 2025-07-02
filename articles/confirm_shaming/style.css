@@ -36,7 +36,27 @@
     color:rgb(146, 64, 91);
 }
 
-#confirmShamingPopup .cancel * {
+#confirmShamingPopup #popupCancel {
+    border: 0 none transparent;
+    background-color: transparent;
     font-size: 10pt;
     color:rgb(75, 125, 173);
+    cursor:pointer;
+}
+
+#confirmShamingReset {
+    background-color: rgb(114, 185, 255);
+    border: 2px, solid, black;
+    justify-self: center;
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#confirmShamingReset h1 {
+    font-family: "Determination";
+    text-align: center;
+    color: rgb(75, 125, 173);
+    font-weight: normal;
+    font-size: 20pt;
 }

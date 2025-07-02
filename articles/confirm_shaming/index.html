@@ -5,16 +5,36 @@
         <title>Confirm Shaming</title>
     </head>
     <body>
+        <script>
+            function hidePopup() {
+                document.getElementById("confirmShamingPopup").style.display = "none";
+                document.getElementById("confirmShamingReset").style.display = "block";
+            }
+
+            function showPopup() {
+                document.getElementById("confirmShamingPopup").style.display = "block";
+                document.getElementById("confirmShamingReset").style.display = "none";
+            }
+        </script>
+
         <link rel="stylesheet" href="/Dark-Pattern-Dojo/articles/confirm_shaming/style.css">
         <h1>Confirm Shaming</h1>
-        <div id="confirmShamingPopup">
+        <div style="display:block" id="confirmShamingPopup">
             <h1>25% OFF - Ralsei Plush</h1>
             <div class="confirmShamingImg">
                 <img src="/Dark-Pattern-Dojo/articles/confirm_shaming/1024px-Ralsei_plush_artwork_hatless.png.webp"></img>
             </div>
             <p class="confirm"><a href="https://www.fangamer.com/products/deltarune-ch2-ralsei-plush">BUY NOW!!!</a></p>
-            <p class="cancel"><a href="#">No thanks, I hate fluffiness</a></p>
+            <p id="popupCancel" onclick="hidePopup()">No thanks, I hate fluffiness</p>
         </div>
-        <p>Confirm shaming is when you are presented with an option and the unfavourable option is labelled negatively.</p>
+        <div style="display:none" id="confirmShamingReset">
+            <h1 onclick="showPopup()">Click here to bring back the popup.</h1>
+        </div>
+
+        <p>
+            Confirm shaming is a psychological pattern where you are presented with an option to perform an action that
+            usually benefits the website, but the choice to not perform that action is worded to make the user feel bad
+            for choosing that option.
+        </p>
     </body>
 </html>
